@@ -1,0 +1,12 @@
+[package]
+name = "wheofficial/profileservice"
+description = "Fork of ProfileService to work with Wally"
+version = "1.0.1"
+license = "Apache-2.0"
+authors = ["MadStudioRoblox"]
+
+realm = "server"
+registry = "https://github.com/upliftgames/wally-index"
+
+exclude = ["**"]
+include = ["src", "src/*", "default.project.json", "wally.lock", "wally.toml"]
